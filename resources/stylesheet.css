@@ -1,25 +1,57 @@
 BODY {
 		margin : 0 auto;
-		padding : 0 auto;
+		padding : 2em;
 }
 
 #outerFrame {
-		background-color : blue;
+		background-color : grey;
 		height : 100vh;
 		margin-left : 10%;
 		margin-right : 10%;
+		border-radius : 3em;
 }
 
 #innerFrame {
-		background-color : blue;
+		background-color : grey;
+		border-radius : 3em;
 }
 
 #headline {
 		text-align : center;
-		background-color : yellow;
+		background-color : black;
+		color : white;
+		padding : 1em;
+		border-radius : 3em 3em 0 0;
 }
 
 #headline h1 {
 		margin : 0;
 		padding : 0;
+}
+
+#navigation {
+		background-color : black;
+}
+
+#navigation ul {
+		margin : 0;
+		padding : 0;
+		list-style : none;
+		text-align : center;
+}
+
+#navigation ul li {
+		display : inline-block;
+}
+
+#navigation ul li a {
+		text-decoration : none;
+		color : white;
+		text-transform : uppercase;
+		padding : 1em;
+		display : block;
+}
+
+#navigation ul li a:hover {
+		background-color : red;
 }
