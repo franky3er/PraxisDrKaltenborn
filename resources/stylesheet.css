@@ -1,18 +1,15 @@
 BODY {
 		margin : 0 auto;
-		padding : 2em;
+		padding : 1em;
+		background-image : url("laecheln.jpg");
+		background-size : cover;
+		background-attachment:fixed;
 }
 
-#outerFrame {
-		background-color : grey;
-		height : 100vh;
+#frame {
+		height : 95vh;
 		margin-left : 10%;
 		margin-right : 10%;
-		border-radius : 3em;
-}
-
-#innerFrame {
-		background-color : grey;
 		border-radius : 3em;
 }
 
@@ -22,6 +19,7 @@ BODY {
 		color : white;
 		padding : 1em;
 		border-radius : 3em 3em 0 0;
+		opacity : 0.8;
 }
 
 #headline h1 {
@@ -31,6 +29,9 @@ BODY {
 
 #navigation {
 		background-color : black;
+		opacity : 0.8;
+		border-radius : 0 0 3em 3em;
+		margin-bottom : 1em;
 }
 
 #navigation ul {
@@ -53,5 +54,16 @@ BODY {
 }
 
 #navigation ul li a:hover {
-		background-color : red;
+		color : red;
+}
+
+#content {
+		padding-right : 3em;
+		padding-left : 3em;
+		padding-top : 1em;
+		padding-bottom : 1em;
+		color : white;
+		background-color : black;
+		opacity : 0.8;
+		border-radius : 3em;
 }
