@@ -55,7 +55,7 @@ BODY {
 }
 
 #navigation ul li a:hover {
-		color : red;
+		color : rgb(0, 206, 209);
 }
 
 #content {
