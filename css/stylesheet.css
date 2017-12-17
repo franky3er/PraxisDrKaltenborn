@@ -74,8 +74,8 @@ BODY {
 .content {
 		padding-right : 3em;
 		padding-left : 3em;
-		padding-top : 1em;
-		padding-bottom : 1em;
+		padding-top : 3em;
+		padding-bottom : 3em;
 		color : black;
 		background-color : rgba(255, 255, 255, 0.9);
 		border-radius : 3em;
@@ -88,5 +88,10 @@ BODY {
 .startseite img {
 	width : 80%;
 	border-radius : 15px;
+}
+
+.leistungen {
+	text-align : center;
+	font-size : large;
 }
 
