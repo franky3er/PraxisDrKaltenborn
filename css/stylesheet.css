@@ -95,3 +95,13 @@ BODY {
 	font-size : large;
 }
 
+.praxis {
+	text-align : center;
+}
+
+.praxis img {
+	width : 50%;
+	margin-bottom : 20px;
+	border-radius : 15px;
+}
+
