@@ -1,68 +1,92 @@
 BODY {
 		margin : 0 auto;
 		padding : 1em;
-		background-image : url("laecheln.jpg");
+		background-image : url("../img/toothbrush.jpg");
 		background-size : cover;
 		background-attachment:fixed;
 }
 
-#frame {
+.frame {
 		height : 95vh;
 		margin-left : 10%;
 		margin-right : 10%;
 		border-radius : 3em;
 }
 
-#headline {
+.headline {
 		text-align : center;
-		background-color : rgba(255, 255, 255, 0.7);
+		background-color : rgba(255, 255, 255, 0.9);
 		color : black;
 		padding : 1em;
 		border-radius : 3em 3em 0 0;
 }
 
-#headline h1 {
+.headline h1 {
 		margin : 0;
 		padding : 0;
 }
 
-#navigation {
-		background-color : rgba(255, 255, 255, 0.7);
+.navigation {
+		background-color : rgba(255, 255, 255, 0.9);
 		border-radius : 0 0 3em 3em;
 		margin-bottom : 1em;
 		border-top : 1px solid black;
 }
 
-#navigation ul {
+.navigation ul {
 		margin : 0;
 		padding : 0;
 		list-style : none;
 		text-align : center;
 }
 
-#navigation ul li {
+.navigation ul li {
 		display : inline-block;
 }
 
-#navigation ul li a {
+.navigation ul li a {
 		text-decoration : none;
-		color : black;
 		text-transform : uppercase;
 		padding : 1em;
 		display : block;
 }
 
-#navigation ul li a:hover {
+.active {
+	background-color : rgba(225, 225, 225, 0.9);
+}
+
+.active a {
+	color : rgb(0, 206, 209);
+}
+
+.active a:hover {
+	color : rgb(0, 206, 209);
+}
+
+.inactive a {
+	color : black;
+}
+
+.inactive a:hover {
 		color : rgb(0, 206, 209);
 }
 
-#content {
+.content {
 		padding-right : 3em;
 		padding-left : 3em;
 		padding-top : 1em;
 		padding-bottom : 1em;
 		color : black;
-		background-color : rgba(255, 255, 255, 0.7);
-		opacity : 0.8;
+		background-color : rgba(255, 255, 255, 0.9);
 		border-radius : 3em;
 }
+
+.startseite {
+	text-align : center;
+}
+
+.startseite img {
+	width : 80%;
+	border-radius : 15px;
+}
+
