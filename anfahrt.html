@@ -25,8 +25,62 @@
 				</ul>
 			</div>
 			<div class="content">
+				<div class="row">		
+					<div class="col">
+						<h2>So finden Sie uns!</h2>
+						<h4>Adresse: </h4>
+						<p>
+							Zahnarztpraxis Dr. med. dent. Gabriele Kaltenborn<br/>
+							Hölderlinstraße 2<br/>
+							55131 Mainz
+						</p>
+						<br/>
+					</div>
+					<div class="col">
+						<h4>Die Anfahrt bequem mit dem Auto...</h4>
+						<p>
+							... ist gar kein Problem! <br/>
+							Prakplätze stehen reichlich im nur 4 Minuten Fußweg entfertem Parkhaus des Katholischen Klinikums (ehem. Vinzenzkrankenhaus) zur Verfügung.<br/>
+							Außerdem ist ein kurzes Ein- und Aussteigen direkt vor der Praxis möglich.
+						</p>
+						<br/>
+					</div>
+					<div class="col">
+						<h4>Mit den öffentlichen Verkehrsmitteln...</h4>
+						<p>
+							... erreichen Sie uns auch gut!<br/>
+							Die Straßenbahnlinien 50, 52 und 53 halten direkt vor der Praxis (Haltestelle: An der Phillipsschanze)<br/>
+							Die Buslinien 67, 70, 72, 652, 660 (Haltestelle: An der Phillipsschanze) <br/>
+							sowie 9, 62,63 (Haltestelle: An der Goldgrube) halten in unmittelbarer Nähe.
+						</p>
+						<br/>
+					</div>
+					
+				</div>
+				
+				<div class="row">
+					<div class="col">
+						<div id="map"></div>
+					</div>
+				</div>
+				
 			</div>
 		</div>
+		
+		<script>
+			function initMap() {
+				var location = {lat: 49.989898, lng: 8.266796};
+				var map = new google.maps.Map(document.getElementById("map"), {
+					zoom: 17,
+					center: location
+				});
+				var marker = new google.maps.Marker({
+					position: location,
+					map: map
+				});
+			}
+		</script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6_s2vZ1tR2pYGYzhxsBf2qHk_Gxr0uAQ&callback=initMap"></script>
 		
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
