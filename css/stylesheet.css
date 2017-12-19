@@ -6,36 +6,25 @@ BODY {
 		background-attachment:fixed;
 }
 
-.frame {
-		height : 95vh;
-		margin-left : 10%;
-		margin-right : 10%;
-		border-radius : 3em;
-}
-
 .headline {
 		text-align : center;
 		background-color : rgba(255, 255, 255, 0.9);
-		color : black;
-		padding : 1em;
-		border-radius : 3em 3em 0 0;
+		border-radius : 2em 2em 0 0;
 }
 
 .headline h1 {
 		margin : 0;
 		padding : 0;
+		color : rgb(122, 151, 123);
 }
 
 .navigation {
 		background-color : rgba(255, 255, 255, 0.9);
-		border-radius : 0 0 3em 3em;
 		margin-bottom : 1em;
 		border-top : 1px solid black;
 }
 
 .navigation ul {
-		margin : 0;
-		padding : 0;
 		list-style : none;
 		text-align : center;
 }
@@ -72,13 +61,10 @@ BODY {
 }
 
 .content {
-		padding-right : 3em;
-		padding-left : 3em;
-		padding-top : 3em;
-		padding-bottom : 3em;
+		padding : 2em;
 		color : black;
 		background-color : rgba(255, 255, 255, 0.9);
-		border-radius : 3em;
+		border-radius : 0 0 2em 2em;
 }
 
 .startseite {
@@ -86,13 +72,8 @@ BODY {
 }
 
 .startseite img {
-	width : 80%;
-	border-radius : 15px;
-}
-
-.leistungen {
-	text-align : center;
-	font-size : large;
+	width : 100%;
+	border-radius : 1em;
 }
 
 .praxis {
@@ -100,9 +81,9 @@ BODY {
 }
 
 .praxis img {
-	width : 60%;
-	margin-bottom : 20px;
-	border-radius : 15px;
+	width : 100%;
+	margin-bottom : 1em;
+	border-radius : 1em;
 }
 
 .team {
@@ -110,14 +91,18 @@ BODY {
 }
 
 .team img {
-	width : 50%;
+	width : 100%;
 	margin-bottom : 20px;
-	border-radius : 15px;
+	border-radius : 1em;
 }
 
 #map {
 	height: 500px;
+	border-radius : 1em;
 }
 
+td {
+	padding-right : 1em;
+}
 
 
