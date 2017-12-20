@@ -80,24 +80,8 @@ BODY {
 	border-radius : 1em;
 }
 
-.praxis {
-	text-align : center;
-}
-
-.praxis img {
-	width : 100%;
-	margin-bottom : 1em;
-	border-radius : 1em;
-}
-
 .team {
 	text-align : center;
-}
-
-.team img {
-	width : 100%;
-	margin-bottom : 1em;
-	border-radius : 1em;
 }
 
 #map {
@@ -107,6 +91,15 @@ BODY {
 
 td {
 	padding-right : 1em;
+}
+
+img {
+	width : 100%;
+	border-radius : 1em;
+}
+
+#praxis-carousel {
+	border-radius : 1em;
 }
 
 
